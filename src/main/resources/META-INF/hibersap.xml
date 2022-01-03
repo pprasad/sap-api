@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hibersap xmlns="urn:hibersap:hibersap-configuration:1.1">
+	<session-manager name="A12">
+		<properties>
+			<property name="jco.client.client" value="310" />
+			<property name="jco.client.user" value="Vivek" />
+			<property name="jco.client.passwd" value="Nov@2021" />
+			<property name="jco.client.lang" value="en" />
+			<property name="jco.client.ashost" value="ksa-sap-sndr3" />
+			<property name="jco.client.sysnr" value="01" />
+			<property name="jco.destination.pool_capacity" value="10" />
+		</properties>
+		<annotated-classes>
+			<annotated-class>org.sap.api.model.InvoiceRFCBapi</annotated-class>
+			<annotated-class>org.sap.api.model.InvoiceRfcUBLUpdate</annotated-class>
+		</annotated-classes>
+	</session-manager>
+</hibersap>
